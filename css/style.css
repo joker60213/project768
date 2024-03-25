@@ -1,9 +1,9 @@
 body {
-    width: 784px;
+    width: 768px;
     height: 504px;
 }
 .cps__body {
-    max-width: 784px;
+    max-width: 768px;
     margin: 0 auto; 
 }
 .cps__header {
