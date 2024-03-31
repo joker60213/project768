@@ -197,9 +197,6 @@ li:not(:first-child) {
         padding-left: 45px;
         }
 
-    .cps__slide-menu {
-        width: 320px;
-    }
 
     .cps__main {
         width: 390px;
