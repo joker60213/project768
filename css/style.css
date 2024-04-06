@@ -170,6 +170,10 @@ li:active {
     
 }
 
+@media screen and (max-width: 576px) {
+    
+}
+
 @media screen and (max-width: 768px) {
 
     .cps__group {
@@ -181,26 +185,28 @@ li:active {
     }
 
     .cps__header {
-        display: flex;
+/*      display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: flex-start;
         width: 420px;
         height: 120px;
         margin: 0 auto;
-        border-bottom: 2px solid #D9FFF5;
+        border-bottom: 2px solid #D9FFF5; */
+        
     }
 
     .cps__container {
-        padding-bottom: 5px;
+/*         padding-bottom: 5px;
         margin-left: 125px;
         display: flex;
         align-items: center;
-        max-width: 768px;
+        max-width: 768px; */
+
         }
 
-    .cps__container-icon {
-        padding-left: 45px;
+    .call, .chat, .profile {
+       display: none;
         }
 
   
@@ -214,6 +220,3 @@ li:active {
     }
 }
 
-@media screen and (max-width: 576px) {
-    
-}
