@@ -61,6 +61,7 @@ body {
 
 .cps__title {
     margin: 24px 0 40px 0;
+    padding-top: 10px;
     font-family: 'TT Lakes';
     font-size: 28px;
     font-weight: 700;
@@ -165,6 +166,10 @@ li:active {
 
 @media screen and (max-width: 1200px) {
     
+
+
+
+    
 }
 @media screen and (max-width: 998px) {
     
@@ -216,7 +221,16 @@ li:active {
     }
 
     body {
-        width: 320px;
+        width: 420px;
+    }
+
+    .cps__title {
+    padding-top: 10px;
+
+    }
+
+    .cps__line-1::before {
+        display: none;
     }
 }
 
